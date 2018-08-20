@@ -1,0 +1,1 @@
+stonesInterval = setInterval(stones, 200) 

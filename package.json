@@ -1,0 +1,15 @@
+{
+  "name": "inca",
+  "version": "1.0.0",
+  "description": "generate inka walls",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "d3": "^5.5.0",
+    "underscore": "^1.9.1"
+  }
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Inca Wall Generator Stub</title>
+      <link rel="shortcut icon" type="image/png" href="favicon.png" />
+      <style>
+          svg{position: absolute; top: 0; left: 0;}
+          #buttons{position: absolute; bottom: 0; z-index: 10;}
+          svg g.stone text{ display: none;}
+          svg g.stone:hover text {display: block;}
+          text{
+              stroke: #aaa;
+              font-size: small;
+          }
+          body{ background: #222}
+          path.wall{
+              stroke: #aaa;
+              fill: rgba(100,100,100,0.4)
+          }
+          path.frame{ fill: rgba(100,100,100,0.4)}
+      </style>      
+  </head>
+  <body>
+    <div id="buttons">
+        <button onclick="wall()">Wall</button>
+        <button onclick="stonesInterval = setInterval(stones, 200)">Stones</button>
+        <button onclick="clearInterval(stonesInterval)">Stop</button>
+    </div>
+
+    <!-- <script src="node_modules/d3-path/d3-path.js"></script> -->
+    <script src="d3.js"></script>
+    <script src="inca.js"></script>
+    <script src="stones.js"></script>
+    <script src="index.js"></script>
+
+  </body>
+</html>
+
